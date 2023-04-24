@@ -39,3 +39,8 @@ const stdin = (process.platform === 'linux'
 49
 `
 ).split('\n');
+
+const input = (() => {
+    let line = 0;
+    return () => stdin[line++];
+})();
