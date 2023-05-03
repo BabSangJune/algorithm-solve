@@ -15,7 +15,7 @@ const input = (() => {
 })();
 
 
-// @todo 이해하고 다시 풀어보기
+// @todo 이해하고 다시 풀어보기 check
 const [bracketCount, changeCount] = input().split(' ').map(Number)
 
 let bracketArr = []
