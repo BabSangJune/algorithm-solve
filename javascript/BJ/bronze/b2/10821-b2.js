@@ -30,3 +30,10 @@ while (cnt < changeCount) {
 
     console.log(start, end, standard)
 }
+
+// while (cnt < changeCount) {
+//     cnt++
+//     const [start, end, standard] = input().split(' ').map(Number)
+//
+//     console.log(start, end, standard)
+// }
